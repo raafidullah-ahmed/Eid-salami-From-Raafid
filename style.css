@@ -1,0 +1,514 @@
+/* Base Styles */
+body {
+  background-image: url(images/bg.4.png);
+  background-color: #11192a;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "Poppins", sans-serif;
+  color: #dfc68c;
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  color: inherit;
+}
+
+header#head {
+  background-color: #11192a80;
+  padding: 10px 30px 10px 10px;
+  margin-bottom: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #18233b;
+  border-radius: 7px;
+  font-size: 17px;
+}
+
+.logo {
+  height: 52px;
+}
+
+.head_l {
+  display: flex;
+  align-items: center;
+}
+
+.about_btn {
+  height: 30px;
+  width: 50px;
+  background-color: transparent;
+  color: #dfc68c;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.bg {
+  background-color: #11192acd;
+  margin: 10px 40px;
+  padding: 5px 0 50px;
+  border-radius: 20px;
+  border: 2px solid #212d3d;
+  box-shadow: 0 0 15px #212d3d;
+}
+
+#hero {
+  margin: 60px auto 0;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding: 0 20px;
+}
+
+.ayah {
+  color: #f5f5f5;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  font-style: italic;
+}
+
+.ayah span {
+  font-size: 12px;
+  color: #f5f5f550;
+}
+
+.gift_btn {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.gift_btn button {
+  background: linear-gradient(135deg, #0c664d, #119570);
+  color: #fff;
+  padding: 12px 28px;
+  border-radius: 17px;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  box-shadow: 0 0 15px #26ba3770;
+  cursor: pointer;
+}
+
+/* Form */
+#form h3 {
+  text-align: center;
+  color: #dfc68c;
+  font-weight: 600;
+  font-size: 25px;
+  margin-top: 50px;
+}
+
+#form_div {
+  background-color: #212d3d;
+  margin: 0 auto;
+  padding: 20px 15px 15px;
+  border-radius: 20px;
+  border: 3px solid #131c2e95;
+  color: #fff;
+  box-shadow: 0 0 20px #00000080;
+  width: 70%;
+}
+
+fieldset {
+  border-radius: 10px;
+  border-color: #131c2e95;
+  padding: 20px;
+  font-size: 18px;
+}
+
+legend {
+  color: #ffffff80;
+  font-size: 20px;
+}
+
+label {
+  font-size: 17px;
+}
+
+input.nm,
+textarea {
+  width: 98%;
+  min-height: 25px;
+  border-radius: 10px;
+  padding-left: 10px;
+  background-color: #11192a;
+  color: #dadae2;
+  font-size: 15px;
+  border: none;
+}
+
+textarea:hover {
+  box-shadow: 0 0 20px #00000080;
+}
+
+.gndr_div,
+.rltn_div {
+  display: flex;
+  min-width: fit-content;
+  background-color: #11192a;
+  border-radius: 10px;
+  padding: 10px;
+  color: #dadae2;
+  font-size: 15px;
+  gap: 10px;
+}
+
+.gndr {
+  display: flex;
+  align-items: center;
+}
+
+.gndr_txt_m,
+.gndr_txt_f,
+.rltn_txt,
+.yes {
+  color: #fff;
+  font-size: 15px;
+}
+
+.eligibility {
+  background: linear-gradient(135deg, #096d51, #cdb46f);
+  color: #fff;
+  padding: 12px 30px;
+  border-radius: 17px;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  box-shadow: 0 0 15px #2b691ea5;
+  cursor: pointer;
+}
+
+.eligibility_div {
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Salami Section */
+.slmi_box {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.slmi_box h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.slmi_box img {
+  max-width: 100%;
+}
+
+.box_hint {
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  color: #ffdd57;
+  margin-top: 5px;
+  font-weight: 500;
+}
+
+.slmi_box .loading {
+  height: 52%;
+  box-shadow: 0 0 20px #00000080;
+  max-width: 350px;
+}
+
+.slmi_box .closeBox {
+  height: 150px;
+  max-width: 178px;
+}
+
+.slmi_box .openBox {
+  height: 150px;
+  max-width: 350px;
+}
+
+.slmi_box .box_2 {
+  height: 178px;
+  max-width: 350px;
+  margin-top: -15px;
+}
+
+.slmi_box .dua {
+  background-color: #212d3d;
+  width: 50%;
+  min-height: 110px;
+  margin: 0 auto;
+  padding: 15px;
+  border-radius: 12px;
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+
+.arrow {
+  font-size: 35px;
+}
+
+/* Footer */
+#footer_div_up {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+  padding: 15px 30px;
+  background-color: #212d3dcd;
+  border-radius: 8px 8px 0 0;
+}
+
+.ftr_txt {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  font-size: 15px;
+}
+
+h5 {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.ftr_txt p {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+.links {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 13px;
+  align-items: center;
+}
+
+.link img {
+  height: 50px;
+}
+
+#footer_div_down {
+  display: flex;
+  justify-content: center;
+  padding: 8px 30px;
+  background-color: #212d3dcd;
+  border-radius: 0 0 8px 8px;
+  color: #fff;
+}
+
+#footer_div_down p {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+
+
+
+.small-star {
+  position: absolute;
+  font-size: 15px;
+  animation: starMove 3s infinite;
+}
+
+@keyframes starMove {
+  0% { transform: translate(0,0) scale(1); opacity: 0.6; }
+  50% { transform: translate(10px,-10px) scale(1.2); opacity: 1; }
+  100% { transform: translate(0,0) scale(1); opacity: 0.6; }
+}
+
+
+.slmi_box .dua {
+  position: relative;
+  overflow: hidden; /* for floating stars */
+}
+
+/* Add small stars using ::before and ::after
+.slmi_box .dua::before,
+.slmi_box .dua::after {
+  content: '🌟';
+  position: absolute;
+  font-size: 20px;
+  animation: twinkle 2s infinite;
+  opacity: 0.8;
+}*/
+
+.slmi_box .dua::before {
+  top: 10%;
+  left: 5%;
+}
+
+.slmi_box .dua::after {
+  bottom: 15%;
+  right: 10%;
+}
+
+/* Twinkle animation */
+@keyframes twinkle {
+  0%, 100% { opacity: 0.5; transform: scale(1) rotate(0deg); }
+  50% { opacity: 1; transform: scale(1.3) rotate(20deg); }
+}
+
+
+
+
+/* Responsive */
+/* Large Desktop: 1200px – 1025px */
+@media screen and (max-width: 1200px) {
+  #form_div { width: 75%; padding: 18px 12px; }
+  #hero h1 { font-size: 36px; }
+  .gift_btn button, .eligibility { font-size: 16px; padding: 10px 20px; }
+  .slmi_box .dua { width: 60%; }
+}
+
+/* Tablets: 768px – 1024px */
+@media screen and (max-width: 1024px) {
+  #hero h1 { font-size: 32px; }
+  #hero p, #hero .ayah { font-size: 16px; }
+  #form_div { width: 80%; }
+  .slmi_box .dua { width: 70%; font-size: 14px; }
+}
+
+/* Small Tablets / Large Mobiles: 481px – 767px */
+@media screen and (max-width: 767px) {
+  #hero h1 { font-size: 26px; }
+  #hero p, #hero .ayah { font-size: 14px; }
+  .gift_btn button, .eligibility { font-size: 14px; padding: 10px 16px; }
+  #form_div { width: 90%; padding: 12px; }
+  .gndr_div, .rltn_div { flex-direction: column; gap: 6px; }
+  .slmi_box img, .slmi_box .dua { width: 90%; }
+  .box_2 { margin-top: 1px; }
+}
+
+/* Small Mobile: 320px – 480px */
+@media screen and (max-width: 480px) {
+  #head { padding-right: 20px; }
+  .head_l img.logo { height: 40px; }
+  .head_l p { font-size: 14px; }
+  .head_r button.about_btn { font-size: 14px; padding: 6px 12px; }
+  #hero h1 { font-size: 22px; }
+  #hero p, #hero .ayah { font-size: 12px; }
+  #form_div { width: 95%; padding: 10px; }
+  .nm, textarea { width: 100%; }
+  .gndr_div, .rltn_div { flex-direction: column; gap: 4px; }
+  .gndr_txt_m, .gndr_txt_f, .rltn_txt, .yes { font-size: 13px; }
+  .gift_btn button, .eligibility { width: 100%; font-size: 14px; padding: 8px 10px; }
+  .slmi_box .dua { width: 90%; font-size: 12px; padding: 8px; }
+  #footer_div_up, #footer_div_down { flex-direction: column; text-align: center; padding: 8px; }
+  .links { flex-wrap: wrap; justify-content: center; gap: 8px; }
+  .links img { height: 40px; }
+  #footer_div_down p { font-size: 12px; }
+}
+
+/* Button hover */
+.gift_btn button,
+.eligibility,
+.about_btn {
+  transition: all 0.3s ease;
+}
+
+.gift_btn button:hover,
+.eligibility:hover {
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 0 25px #26ba3770;
+}
+
+.about_btn:hover {
+  color: #119570;
+  transform: scale(1.1);
+}
+
+/* Input hover */
+.nm:hover,
+textarea:hover {
+  box-shadow: 0 0 10px #26ba37aa;
+  outline: none;
+}
+
+/* Form labels hover */
+label:hover {
+  color: #fff;
+  transition: color 0.2s ease;
+}
+
+/* Gender & relation div hover */
+.gndr_div:hover,
+.rltn_div:hover {
+  box-shadow: 0 0 15px #2b691ea5;
+  transition: box-shadow 0.3s ease;
+}
+
+/* Footer icon hover */
+.links img:hover {
+  transform: scale(1.2) rotate(5deg);
+  transition: transform 0.3s ease;
+}
+
+/* Fade in hero section */
+#hero {
+  opacity: 0;
+  animation: fadeIn 1.5s forwards;
+  animation-delay: 0.3s;
+}
+
+@keyframes fadeIn {
+  to { opacity: 1; }
+}
+
+/* Floating gift button */
+.gift_btn button {
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
+}
+
+/* Subtle pulse for eligibility button */
+.eligibility {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.03); }
+}
+
+/* Salami box appear */
+.slmi_box {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: slideUp 1s forwards;
+  animation-delay: 0.5s;
+}
+
+@keyframes slideUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Dua card fade in */
+.slmi_box .dua {
+  opacity: 0;
+  transform: scale(0.9);
+  animation: duaFade 1s forwards;
+  animation-delay: 1.5s;
+}
+
+@keyframes duaFade {
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

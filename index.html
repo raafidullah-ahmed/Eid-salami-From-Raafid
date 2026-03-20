@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <meta name="viewport" content="width=1024"> -->
+
+  <title>Eidi by Raafid</title>
+  <link rel="icon" href="images/icon2.png">
+  <link rel="stylesheet" href="style.css">
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans+Arabic:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+</head>
+
+
+<body>
+  <header id="head">
+    <div class="head_l" title="Stop poking me! Hit ‘About’ instead huh…">
+      <img src="images/icon_w.png" class="logo">
+      <p> Eid Salami 🌟🌙 </p>
+    </div>
+    <div class="head_r">
+      <div id="about" title="I guess it’s time for introductions. P.S. Eidi’s from Raafidullah">
+        <button type="submit" class="about_btn"> About </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="bg">
+    <section id="hero">
+      <h1> Eid Mubarak 🌙 </h1>
+      <p class="wish"> Wishing you a joy-filled Eid overflowing with love and happiness! </p>
+      <p class="ayah"> “Do not belittle any gift, even if it is a sheep’s hoof.” <br>
+        <span>— Sahih al-Bukhari & Sahih Muslim </span>
+      </p>
+    </section>
+
+    <div class="gift_btn">
+      <button type="submit"> Get Salami 🎁 </button>
+    </div>
+
+    <section id="form">
+      <div class="container">
+        <form onsubmit="return false;">
+          <h3> One wrong answer… no Eidi 😶 </h3>
+          <div id="form_div">
+            <fieldset>
+              <legend> Don’t lie… I’ll know </legend>
+
+              <label for="name" title="I've to know your identity.">
+                What's your name? <span style="color: #d13021; font-size: 15px; font-weight: 500;">*</span>
+              </label>
+              <br>
+              <input required type="text" placeholder="Don’t overthink it, just your name" class="nm"
+                title="I've to know your identity." id="name" name="name"><br><br>
+
+              <label title="Fact: Mahram, Non-Mahram">
+                What's your gender? <span style="color: #d13021; font-size: 15px; font-weight: 500;">*</span>
+                <span> [Lemme know if you are mahram or not to me :) ] </span>
+              </label>
+              <br>
+              <div class="gndr_div">
+                <div class="gndr">
+                  <label>
+                    <input required type="radio" name="gen" class="gndr_m" value="male" id="gen_m_in"
+                      title="Ahh, Mahram">
+                    <span class="gndr_txt_m"> Male </span>
+                  </label>
+                </div>
+                <div class="gndr">
+                  <label>
+                    <input required type="radio" name="gen" class="gndr_f" value="female" id="gen_f_in"
+                      title="Uh..Oh,,, Non-Mahram">
+                    <span class="gndr_txt_f"> Female </span>
+                  </label>
+                </div>
+              </div>
+              <br>
+
+              <label title="How close are we… really?" class="rltn">
+                Explain our connection… quickly
+              </label>
+              <span style="color: #d13021; font-size: 15px; font-weight: 500;">*</span>
+              <br>
+              <div class="rltn_div">
+                <label><input required type="radio" name="rel" value="j_family_mmbr"> <span class="rltn_txt"> Juniour
+                    Family member (so Eidi is expected) </span></label> <br>
+                <label><input required type="radio" name="rel" value="brother"> <span class="rltn_txt"> Brother
+                    (Ussssss) </span></label> <br>
+                <label><input required type="radio" name="rel" value="friend"> <span class="rltn_txt"> Friend (maybe
+                    you’ll get some, first give me mine) </span></label> <br>
+                <label><input required type="radio" name="rel" value="close_friend"> <span class="rltn_txt"> Close
+                    friend :3 (higher chances) </span></label> <br>
+                <label><input required type="radio" name="rel" value="classmate"> <span class="rltn_txt"> Classmate ;)
+                    (Welcome dude) </span></label> <br>
+                <label><input required type="radio" name="rel" value="acquaintance"> <span class="rltn_txt"> Just
+                    acquaintance :| (hmm… we’ll see) </span></label> <br>
+                <label><input required type="radio" name="rel" value="free_eidi"> <span class="rltn_txt"> Came only for
+                    free Eidi 💸 (honest at least) </span></label>
+              </div>
+              <br>
+
+              <label class="tf"> Have you been nice this year? </label>
+              <span style="color: #d13021; font-size: 15px; font-weight: 500;">*</span>
+              <label><input required type="checkbox" name="checkbox"> <span class="yes"> Yes.</span></label>
+              <span style="text-align: right;"> [I know you are a nice person.] </span>
+              <br><br>
+
+              <label for="comment" class="cmnt"> Your opinion about me… don’t lie </label>
+              <span style="color: #d13021; font-size: 15px; font-weight: 500;">*</span>
+              <br>
+              <textarea required placeholder="e.g. Amazing, generous, deserves respect/love/care"
+                title="Think before you type… seriously" id="comment" name="comment"></textarea>
+              <br><br>
+
+              <div class="eligibility_div">
+                <button type="submit" class="eligibility" title="cliicckkk it…"> Check Eligibility </button>
+              </div>
+
+            </fieldset>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section id="salami">
+      <div class="slmi_box">
+        <h4 title="Preeeeparingggg…"> Preparing your Eidi.!!! </h4>
+        <img src="images/loading.png" class="loading" title="patience, dear…"> <br>
+        <p class="arrow" title="Just a little lower… I promise it’s worth it"> ↓ </p>
+        <img src="images/box_c.png" class="closeBox" title="Click to opeeennn…">
+        <span class="box_hint">👆 Touch/click me to open!</span> <br>
+        <p class="arrow" title="Scroll scroll…"> ↓ </p>
+        <img src="images/box_o.png" id="openBoxT" class="openBox" title="Oh… you opened it? Look down ↓">
+
+
+
+
+        <div class="dua">
+          <p class="dua" title="Congrats… You got your first virtual Eidi…!"> May ALLAH bless you with good health,
+            happiness and prosperity. <br> Eid Mubarak! <br> <span> [Dua is the best gift, so I chose the best gift as
+              your Eidi] </span> <span class="small-star">🌟</span>
+            <span class="small-star">🌟</span>
+            <span class="small-star">🌟</span>
+          </p>
+        </div>
+
+
+
+        <img src="images/box_o_b.png" id="openBoxB" class="box_2"
+          title="Good job… now go check the footer if you wanna reach me…">
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div id="footer_div_up">
+      <div class="ftr_txt">
+        <h5> About </h5>
+        <p class="ftr_txt_2"> Connecting loved ones through virtual blessings this Eid. <br> A special tribute. </p>
+      </div>
+      <div class="links">
+        <div class="link"> <a href="https://www.facebook.com/raafidullah.ahmed" target="_blank"> <img
+              src="images/fb.png" class="fb"> </a> </div>
+        <div class="link"> <a href="https://wa.me/qr/JRLWOY2GKLMFF1" target="_blank"> <img src="images/wp.png"
+              class="wp"> </a> </div>
+        <div class="link"> <a href="https://github.com/raafidullah-ahmed" target="_blank"> <img src="images/git.png"
+              class="git"> </a> </div>
+        <div class="link"> <a href="https://www.linkedin.com/in/raafidullah-ahmed" target="_blank"> <img
+              src="images/li.png" class="li"> </a> </div>
+      </div>
+    </div>
+
+    <div id="footer_div_down">
+      <p>Thank you for sharing your Eid with me! <br> Copyright © 2026 Virtual Eidi from Raafidullah. </p>
+    </div>
+  </footer>
+
+<script src="script.js?v=1.1"></script>
+
+</body>
+
+</html>
