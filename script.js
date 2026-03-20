@@ -141,7 +141,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 // backend
-const scriptURL = "https://script.google.com/macros/s/AKfycbyU-6vTAsgzzfmHLmPKtreUm0IyaEKUZC73k5_Z7ALYP76xvQF7ap3IhGagq8I7bL6w4Q/exec";
+const scriptURL = "https://script.google.com/macros/s/AKfycbzHyOArdGiQpuOu-BuTqreF9gIuQhxHbV9-HLS7OhbnCa1Hws-35unIAb2QD4TU8--lOQ/exec";
 
 const eligibilityBtn = document.querySelector(".eligibility");
 eligibilityBtn.onclick = () => {
